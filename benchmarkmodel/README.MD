@@ -48,6 +48,4 @@ Dataset yang digunakan dalam proyek ini meliputi:
 1.  **CPT Dataset:** Artikel berita dan narasi media sosial terkait Disinformasi dan Fitnah.
 2.  **Validation:** Wiki Dataset (Indonesian) untuk mengukur tingkat degradasi pengetahuan umum setelah model dipelajari secara spesifik pada domain DFK.
 
----
-**Tim 1 - Capstone Project DFK**
-*Informatics Engineering, Institut Teknologi Sepuluh Nopember (ITS)*
+
