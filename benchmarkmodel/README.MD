@@ -32,14 +32,14 @@ Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 j
 **Qwen3-4b-Base** merupakan *best performer* dalam aspek efisiensi teknis:
 * **Performa:** Mencatatkan **Eval Loss terendah (1.51)** dan **Perplexity (PPL) terbaik (3.25)** di antara seluruh kandidat.
 * **Resource:** Hanya membutuhkan waktu **5.1 jam** pelatihan dengan penggunaan VRAM yang sangat minim (**14.26 GB**).
-* **Verdict:** Pilihan utama untuk *deployment* pada perangkat dengan keterbatasan hardware tanpa mengorbankan akurasi.
+
 
 #### 2. Paradoks PPL: Kualitas Narasi vs Statistik
 Terdapat temuan unik pada **Qwen 3.5 9B**. Meskipun secara statistik memiliki angka PPL tertinggi (**7.57**), kualitas outputnya secara kualitatif adalah yang **paling cerdas**.
 * **Diksi Dewasa:** Mampu menggunakan istilah sosiopolitik yang berat secara tepat (contoh: *"polarisasi"* dan *"partisipasi publik"*).
 * **Analisis:** Nilai PPL yang tinggi dalam kasus ini bukan menunjukkan kebingungan model, melainkan tanda bahwa model memiliki variasi kosakata yang lebih kaya (*High Vocabulary Entropy*).
 
-#### 3. Ketahanan Bahasa (Anti-Lupa)
+#### 3. Ketahanan Bahasa Indonesia Umum
 **Qwen3.5-4b-Base** menunjukkan kemampuan terbaik dalam menjaga pengetahuan umum (*General Knowledge*):
 * **Degradasi Rendah:** Mencatatkan angka penurunan performa bahasa umum paling kecil, yaitu hanya **-9.12%**.
 * **Minim Catastrophic Forgetting:** Sukses mempelajari data spesifik DFK tanpa merusak kemampuan dasarnya dalam berbahasa Indonesia yang natural.
@@ -48,6 +48,7 @@ Terdapat temuan unik pada **Qwen 3.5 9B**. Meskipun secara statistik memiliki an
 Perbedaan karakter *output* antar arsitektur terlihat cukup signifikan:
 * **Gemma & Ministral:** Masih membawa residu (*noise*) dari dataset *pre-training* asal (portal berita), ditandai dengan munculnya frase seperti *"klik di sini"* atau *"scroll ke bawah"*.
 * **Qwen Series:** Hasil *generate* jauh lebih bersih, profesional, dan sangat peka terhadap konteks lokal Indonesia (seperti isu politik dan dinamika sosial terkini).
+
 ## Konfigurasi Parameter (Hyperparameters)
 
 Eksperimen ini dijalankan menggunakan library **Unsloth** untuk efisiensi memori dengan konfigurasi sebagai berikut:
