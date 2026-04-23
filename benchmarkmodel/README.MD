@@ -8,6 +8,7 @@ Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 j
 
 | Metrik | Qwen3.5-9B-Base | Ministral-3-8B-Base-2512 | gemma-4-E4B |
 | :--- | :---: | :---: | :---: |
+| **Global Step** | 456 | 579 | 483 |
 | **Baseline Wiki PPL** | 4.06 | 5.24 | 3066.38 |
 | **Final Wiki PPL** | 3.44 | 4.52 | 9.70 |
 | **Degradation** | **-15.31%** | -13.66% | -99.68% |
