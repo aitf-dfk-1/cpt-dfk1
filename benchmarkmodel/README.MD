@@ -15,7 +15,7 @@ Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 j
 | **Degradation** | **-15.31%** | -13.66% | -31.08% | -19.54% | -13.78% | x |
 | **Train Loss** | 2.07 | 1.68 | 1.85 | 1.90 | 1.84 | x |
 | **Eval Loss** | 2.02 | 1.64 | 1.78 | 1.84 | 1.79 | x |
-| **PPL (Final)** | 7.54 | 5.16 | 9.97 | 8.23 | 6.41 | x |
+| **PPL (Final)** | 7.57 | 5.15 | 5.92 | 6.31 | 5.98 | x |
 | **Runtime (Durasi)** | ~12.8 Jam | ~7.5 Jam | ~5.93 Jam | ~9,08 Jam | ~4.33 Jam | x |
 | **VRAM Peak** | 31.88 GB | 20.95 GB | 32.56 GB | 22.51 GB | 13.40 GB | x |
 
