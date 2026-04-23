@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk mengevaluasi dan membandingkan performa berbagai *Lar
 
 Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 juta token), berikut adalah metrik utama yang dihasilkan:
 
-| Metrik | Qwen 3.5 9B | Ministral 8B | Gemma 4B |
+| Metrik | Qwen3.5-9B-Base | Ministral-3-8B-Base-2512 | gemma-4-E4B |
 | :--- | :---: | :---: | :---: |
 | **Baseline Wiki PPL** | 4.06 | 5.24 | 3066.38 |
 | **Final Wiki PPL** | 3.44 | 4.52 | 9.70 |
