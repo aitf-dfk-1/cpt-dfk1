@@ -10,8 +10,8 @@ Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 j
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | **Global Step** | 456 | 579 | 486 | 486 | 579 | x
 | **Grad Norm** | 0.2898 | 0.4350 | 0.42 | 0.31 | 0.49 | x |
-| **Baseline Wiki PPL** | 4.06 | 5.24 | 7.76 | 8.23 | 6.62 | x |
-| **Final Wiki PPL** | 3.44 | 4.52 | 5.34 | 6.42 | 5.53 | x |
+| **Baseline Wiki PPL** | 4.06 | 5.24 | 7.76 | 6.42 | 6.62 | x |
+| **Final Wiki PPL** | 3.44 | 4.52 | 5.34 | 5.54 | 5.53 | x |
 | **Degradation** | **-15.31%** | -13.66% | -31.08% | -19.54% | -13.78% | x |
 | **Train Loss** | 2.07 | 1.68 | 1.85 | 1.90 | 1.84 | x |
 | **Eval Loss** | 2.02 | 1.64 | 1.78 | 1.84 | 1.79 | x |
