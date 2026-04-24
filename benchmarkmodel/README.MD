@@ -13,7 +13,7 @@ Berdasarkan eksperimen yang dilakukan pada dataset berukuran 44k sampel (~4.48 j
 | **Baseline Wiki PPL** | 4.06 | 5.24 | 7.76 | 8.23 | 6.62 | 4.45 | 3.95 |
 | **Final Wiki PPL** | 3.44 | 4.52 | 5.34 | 6.62 | 5.53 | 4.05 | 3.25 |
 | **Degradation** | **-15.31%** | -13.66% | -31.08% | -19.54% | -13.78% | -9.12% | -17.53% |
-| **Train Loss** | 2.07 | 1.68 | 1.85 | 1.90 | 1.84 | 2.22 | 1.54 |
+| **Train Loss** | 2.07 | 1.68 | 1.85 | 1.90 | 1.83 | 2.22 | 1.54 |
 | **Eval Loss** | 2.02 | 1.64 | 1.78 | 1.84 | 1.79 | 2.17 | 1.51 |
 | **PPL (Final)** | 7.57 | 5.15 | 5.92 | 6.31 | 5.98 | 8.74 | 4.55 |
 | **Runtime (Durasi)** | ~12.8 Jam | ~7.5 Jam | ~5.93 Jam | ~9,08 Jam | ~4.33 Jam | ~11.99 Jam | 5.1 Jam |
